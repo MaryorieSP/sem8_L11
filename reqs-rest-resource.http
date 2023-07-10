@@ -1,0 +1,30 @@
+@server = https://maryoriesp-musical-yodel-qwgggv9xwrxh94pg-8080.preview.app.github.dev
+
+###
+GET {{server}}
+###
+GET {{server}}/cursos
+###
+GET {{server}}/cursos/2
+###
+GET {{server}}/cursos?size=2
+###
+GET {{server}}/cursos?size=2&page=1
+###
+GET {{server}}/cursos?sort=nombre,asc
+###
+GET {{server}}/cursos?sort=creditos,desc
+###
+POST  {{server}}/cursos
+Content-Type: application/json
+
+{"nombre": "Compiladores","creditos":5}
+###
+DELETE {{server}}/cursos/52
+###
+PATCH {{server}}/cursos/3
+Content-Type: application/json
+
+{"creditos":5}
+###
+GET {{server}}/profile/cursos
