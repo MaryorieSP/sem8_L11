@@ -1,4 +1,5 @@
-@server = https://maryoriesp-musical-yodel-qwgggv9xwrxh94pg-8080.preview.app.github.dev
+#@server = https://maryoriesp-musical-yodel-qwgggv9xwrxh94pg-8080.preview.app.github.dev
+@server = https://semana8.onrender.com
 @apiserver = {{server}}/api/curso
 ###
 
