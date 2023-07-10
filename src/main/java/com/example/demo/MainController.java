@@ -26,7 +26,7 @@ public class MainController {
         return "AT70719936";
     }
 
-    @GetMapping(path="/onombre-complet")
+    @GetMapping(path="/nombre-completo")
     public @ResponseBody String nombre() {
         return "Maryorie Yulissa Sanchez Perez";
     }
