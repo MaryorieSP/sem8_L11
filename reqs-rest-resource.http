@@ -29,5 +29,19 @@ Content-Type: application/json
 ###
 GET {{server}}/profile/cursos
 
+###CARRERAS
+GET {{server}}/carreras
 ###
-GET 
+POST {{server}}/carreras
+Content-Type: application/json
+
+{"nombre":"Publicidad"}
+
+###
+GET {{server}}/cursos/2/carrera
+
+###
+GET {{server}}/carreras/1
+
+###
+GET {{server}}/carreras/1/cursos
