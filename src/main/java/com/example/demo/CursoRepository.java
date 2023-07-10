@@ -11,4 +11,5 @@ public interface CursoRepository extends PagingAndSortingRepository<Curso, Integ
     
     List<Curso> findByNombre(@Param("nombre") String nombre);
 
+    
 }

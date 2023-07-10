@@ -28,3 +28,5 @@ Content-Type: application/json
 {"creditos":5}
 ###
 GET {{server}}/profile/cursos
+
+###
