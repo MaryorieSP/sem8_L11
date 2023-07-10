@@ -30,3 +30,4 @@ Content-Type: application/json
 GET {{server}}/profile/cursos
 
 ###
+GET 
